@@ -1,0 +1,5 @@
+Exemplo:
+
+g++ info.cpp arvore.cpp funcoes.cpp -o funcoes
+
+

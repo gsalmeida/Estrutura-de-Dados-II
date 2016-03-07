@@ -1,0 +1,70 @@
+____________________________________________________________________________________________________________________________________
+Exemplo de compressão.
+
+Texto:
+
+ABCDE
+
+
+
+A=00
+B=01
+C=10
+D=11
+E=110
+
+
+A CADA 8 BYTES (OU VULGARMENTE 8bits), GRAVA UM BYTE.
+
+
+ABCDE
+0001101111000000
+
+BINÁRIO    DECIMAL
+00011011 = 27
+11000000 = 192
+
+<27><192>
+
+Para o texto ABCDE, que ocupam 5 bytes.
+
+vou gravar de maneira binária o char 27 e char 192
+
+ocupando agora 2 bytes.
+
+
+Uma variável do tipo char ocupa 1 byte (8 bits) e pode ser usada para armazenar um valor
+inteiro sem sinal (unsigned char) entre 0 e 255 ou um valor com sinal(char) entre –128 a 127. 
+Pode ser usada tanto como um número ou como caractere.
+
+____________________________________________________________________________________________________________________________________
+
+
+
+
+Mas no cabeçalho do arquivo eu teria alguns bytes, pois começa com os seguintes dados qtdeCaractersLetraValor. O vetor dos caracters
+ existentes com seus valores em binário.
+
+qtdeCaractersLetraValor
+
+Teria um código semelhante a este abaixo para montar o cabeçalho com estes valores
+A=00
+B=01
+C=10
+D=11
+E=110:
+____________________________________________________________________________________________________________________________________
+char qtdeCaracters = 6;
+
+charA = 65; charB = 66; charC = 67; charD = 68; chare = 69;
+charZero = 0;
+charUm = 1;
+
+qtdeCaracterscharAcharZerocharZerocharBcharZerocharUmcharCcharUmcharZerocharDcharUmcharUmcharEcharUmcharUmcharZero
+
+Aqui cada caracter ocupa um byte.
+
+Na descompressão, irei ler byte a byte.
+____________________________________________________________________________________________________________________________________
+
+

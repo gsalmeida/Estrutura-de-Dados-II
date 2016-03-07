@@ -1,0 +1,30 @@
+A
++--B
+|  +--D
++--C
+   +--E
+   +--F
+
+   
+   
+   
+   PRE ORDEM.
+
+
+
+
+
+    void preOrder(Arvore *inicio) {
+    	if(inicio) {
+    		printf("\n.%c->%d.\n", (!inicio->info->getId()) ? '@' : inicio->info->getId(), inicio->info->getQtdeOcorrencias());
+
+    		Arvore * esquerda = inicio->getFilho(ESQUERDA);
+			if(esquerda) preOrder(inicio->getFilho(ESQUERDA));
+
+			Arvore * direita = this->getFilho(DIREITA);
+			if(direita) preOrder(inicio->getFilho(DIREITA));
+    	}
+    }
+    
+    
+    

@@ -1,0 +1,400 @@
+	DESENVOLVIMENTO DE UM SISTEMA DE CONTROLE DE FORMANDOS E EGRESSOS, COM MINERAÇÃO NA WEB PARA LOCALIZAR EX-ALUNOS.
+
+
+
+Palavras-chave
+
+WordNet - base de dados lexical para o idioma Inglês. [1] Ele agrupa palavras inglesas em conjuntos de sinônimos chamados synsets, fornece definições e exemplos de uso curto, e registra uma série de relações entre estes conjuntos de sinônimos ou de seus membros. WordNet pode assim ser visto como uma combinação de dicionário e enciclopédia.
+Web Mining – Mineração de dados na web.
+EI – Extração da Informação
+dump - 
+
+
+1. INTRODUÇÃO
+
+
+
+1.1 PANORAMA ATUAL
+
+	Hoje a Web é a maior fonte de informação digital que dispomos, mas pelo fato de ser uma vasta coleção de documentos heterogêneos e possuir natureza dinâmica, muitas vezes o processo de extrair e armazenar informações relevantes pode gerar um alto custo. Para este fim utiliza-se técnicas de mineração de dados, aplicadas à Web, denominada Web Mining.
+	“Segundo Goldschmidt and Passos (2005), descobrir conhecimento é extrair significados dos dados para evitar riscos e aproveitar oportunidades, não apenas no momento de tomar a decisões gerenciais, mas também para planejamento de atividades. Fayyad et al. (1996) destaca que o processo de descoberta do conhecimento é́ interativo e iterativo, não trivial, para identificar padrões válidos, novos, potencialmente úteis e compreensíveis nos dados”.
+	A mineração na Web pode ser conceituada como a análise inteligente e descoberta de informações úteis da Web. Pode ser vista como a utilização de técnicas de mineração de dados na web para a recuperação automática, extração e avaliação de informação para a descoberta de conhecimento em documentos e serviços da Web. É possível analisar as informações contidas dentro dos documentos da Web, mineração de conteúdo; entre os documentos da Web, mineração de estrutura ou ainda contida na utilização ou interação com a Web, mineração de uso. Essas são as três categorias que dividem a mineração na Web. Para cada classificação são desenvolvidas técnicas e metodologias distintas, muitas delas herdadas de outras áreas disciplinares como Aprendizagem de máquina, Bancos de dados, Estatística, Recuperação de informação, Inteligência artificial e Redes sociais.
+	Estudos vêm sendo realizados desde 1996 e a mineração na Web tem recebido importância significativa nos últimos anos. Por exemplo, com o aumento das transações comerciais na Web, que gerou motivação para o desenvolvimento de técnicas para mineração de uso, pois através delas os sites de venda puderam aprender acerca dos perfis dos compradores para montarem melhores estratégias de venda e marketing. Dessa forma, os serviços da Web poderão eles próprios tornar-se entidades dotadas de comportamento autônomo, que poderão entre outras coisas, comunicar-se através de uma linguagem comum. A mineração na Web será uma ferramenta crucial a ser utilizada pelos agentes e serviços nessa visão da Web, pois ela os ajudará em várias tarefas, dentre as quais estão busca por informações, personalização e talvez até como mecanismo de aprendizado. ”
+	Deste modo, observe-se que uma das etapas cruciais da mineração de dados é a etapa de extração e integração das informações, ou seja, a elaboração de procedimentos e técnicas de pré-processamento que permitam extrair o máximo de cada fonte de dados e de que as informações organizadas de modo integrado e unificado sejam melhor aproveitadas no âmbito gerencial. Assim, cria-se uma arquitetura que permite uma melhor visualização e manipulação dessas informações pelos usuários que, sem a etapa de extração e integração, estariam espalhadas em várias outras bases de dados e que dificilmente seriam consideradas no momento da tomada de decisão.
+	No IFRS – Rio Grande há a Coordenação de Relações Empresariais -  CORE que têm o objetivo de divulgar ofertas de estágio e emprego para alunos e manter uma base de dados  atualizada das carreiras profissionais seguidas pelos egressos e formandos. As informações profissionais são úteis para que estes egressos possam divulgar vagas de emprego e ofertas de estágio nos locais que estão trabalhando no momento. Além disso, permite que o Instituto tenha conhecimento de que maneira a mão-de-obra desenvolvida no Câmpus está sendo incorporada no mercado de trabalho. Entretanto, a CORE têm dificuldade de extrair e unificar essas informações pois as mesmas são coletadas de forma manual e principalmente pela web.
+	Assim, devido a importância de um ferramenta de extração e de integração de dados e de que a Coordenação de Relações Empresariais - CORE do IFRS necessita de uma base de dados unificada que contenha informações a respeito da carreira profissional seguida pelos alunos e ex-alunos, surgiu a proposta do trabalho que têm como objetivo desenvolver um sistema de controle de egressos e formandos utilizando ferramentas e técnicas de extração dessas informações que hoje estão espalhadas na web, de maneira semi-estrutura, principalmente pelas redes sociais. 
+
+
+1.2 MOTIVAÇÃO
+	A motivação pelo desenvolvimento deste projeto justifica-se pelo fato de atender uma necessidade do instituto Federal do Rio Grande do Sul - IFRS, visto que é uma obrigação exigida pelo Ministério da Educação e Cultura que instituições de ensino tenham um sistema para o controle de egressos e formandos. Além disso, o trabalho proposto oportuniza trabalhar com ferramentas e técnicas de extração de informações na Web, visando localizar ex-alunos e explorar seus dados contidos na web, mantendo os dados cadastrais atualizados no banco de dados do sistema.
+
+1.2 OBJETIVO
+	O objetivo principal do trabalho é contribuir com a Coordenação de Relações Empresariais do Instituto Federal de Educação, Ciência e Tecnologia do Rio Grande do Sul, Campus Rio Grande, através do desenvolvimento de um sistema para o controle de egressos e formandos com uso de técnicas e ferramentas para extração de dados ou informações na Web, com objetivo de localizar egressos, auxiliando na busca por profissionais que contemplem ofertas de vagas de emprego oferecidas pelas empresas em parceira com o instituto, bem como ter os seus dados pessoais e profissionais e dos formandos atualizados no sistema. As informações dos alunos serão capturadas de redes sociais e de outros sites na web. 
+
+1.3 ORGANIZAÇÃO
+	Mesmo a mineração de dados tradicionais sendo realizada a partir de uma base de dados e mineração de dados na Web ocorrer em páginas da internet, as metodologias seguem os mesmos passos do processo geral de descoberta de conhecimento em bases de dados (KDD – Knowledge Database Discovery) .
+	A representação da Figura 1 ilustra o processo que será realizado neste trabalho para a busca de informações de ex-alunos.
+	
+	AINDA PRECISO PENSAR E CRIAR UMA IMAGEM QUE ILUSTRE O FLUXO / PROCESSO DE EXTRAÇÃO DA INFORMAÇÃO NA WEB E SINCRONIZAÇÃO COM A BASE DE DADOS DO SISTEMA. NÃO ESTOU PREOCUPADO COM ISSO AGORA E SIM EM ESCREVER A FUNDAMENTAÇÃO TEÓRICA.
+
+2. TRABALHOS RELACIONADOS
+
+	A extração de dados semi-estruturados vem sendo estudada sob diversos aspectos, seja através do desenvolvimento de softwares de extração ou por meio de ferramentas semi-automáticas para serem implementadas no desenvolvimento de sistemas.
+	“O processo de extração é responsável pela recuperação de informações contidas nas fontes de dados, mas sem retornar os documentos completos que contenham estas informações. Ele geralmente transforma dados semi-estruturados de uma fonte de dados para dados que são adequados a um determinado modelo, seja ele estruturado ou não. O resultado é posteriormente processado de alguma forma .”
+	Há muitas abordagens e técnicas de extração de dados semi-estruturados. Visando sempre melhorar a eficiência, muitas ferramentas, como as semi-automáticas, estão sendo desenvolvidas.
+	Neste capítulo serão apresentados alguns projetos desenvolvidos que utilizam abordagens e tecnologias de extração de informações na Web e suas características.
+
+2.1  Dbpedia
+
+	Em (Bizer et al., 2009), é proposto o Framework de Extração de Informação Dbpedia que extrai tipos diferentes de informações e as transformam em dados RDF, que são modelos ou fontes de dados, também conhecido como metadados. Estas informações estão presentes nos artigos da Wikipédia, apesar desses artigos serem formados principalmente de texto livre, também contém vários tipos de informação estruturada, como infobox, informações de categorização, imagens, geo-coordenadas, links para páginas Web externas e outros artigos Wikipédia, informações de desambiguação, redirecionamentos e links entre línguas.
+	Todas as entidades em Dbpedia são atribuídas a uma URL exclusiva http://dbpedia.org/resource/Name, onde Name é retirado da URL da fonte do artigo Wikipédia o qual tem a forma http://en.wikipedia.org/wiki/Name.
+	O tipo de conteúdo “wiki” mais valioso para o framework de extração são os do tipo infoboxes, que contêm pares atributo-valor que são usados para exibir informações de fatos mais relevantes, extraindo e transformando os em ontologia, ou seja, classificação usada como um meio para categorizar ou agrupar as informações em classes.
+	O framework de extração DBPedia está configurado para realizar dois tipos de extração: Dump-based Extraction e Live Extraction.
+
+2.1.1 Dump-based Extraction
+
+	A Wikimedia Foundation publica  dumps SQL de todas as edições da Wikipédia, na base DBpedia. Esta base é atualizada regularmente com os dumps de trinta edições da Wikipédia. O fluxo de trabalho dump-based usa o conjunto de páginas DatabaseWikipedia como uma fonte de textos de artigos e N-Triplas serializadas como o destino de saída. A base de conhecimento resultante é disponibilizada como dados “linkados”, para download, e através do principal endpoint SPARQL Dbpedia.
+_____________________________________________________________________________
+AQUI EU PRECISO EXPLICAR O QUE É O endpoint SPARQL DbPedia
+Podes me ajudar ?
+//  http://wiki.dbpedia.org/OnlineAccess    No capítulo 1.1. Public SPARQL Endpoint do site.
+_____________________________________________________________________________
+
+
+2.1.2 Live Extraction
+
+A DBpedia trabalha em fluxo contínuo de atualizações relacionadas a Wikipedia para extrair novos arquivos RDF's sempre que um artigo dela é alterado. A lógica por trás dessa abordagem de extração é que a DBpedia pode ser vista como uma base de conhecimento atualizável em tempo real, mantendo uma boa correspondência com a Wikipedia.
+O framework extrai informações de qualquer recurso presente nos artigos Wikipédia. Na versão de teste, basta digitar o recurso no campo de entrada. O resultado da extração são Tabelas mostradas em uma página em HTML (HyperText Markup Language - Linguagem de Marcação de Hipertexto), contendo os dados extraídos em forma de triplas RDF, relacionados ao recurso digitado.
+
+
+2.2 YAGO NAGA
+
+	Outro trabalho que envolve extração de informações é (Kasneci et al., 2009). 
+	O autor propõe YAGO, um projeto de Extração da Informação – EI, que tem como foco a alta precisão e a consistência das informações recuperadas com auxilio de ontologias, ao invés de apontar apenas para a alta cobertura dos fatos. Além disso, YAGO adquire conhecimentos através da integração de informações entre Wikipédia e WordNet. A EI é realizada com base em infobox ou caixa de informações e categorias Wikipédia, e combina os fatos resultantes com classes ordenadas do WordNet. Isso é feito através da realização de verificações de consistência sempre que um fato novo é adicionado na base de conhecimento. 
+	O YAGO NAGA é o sistema de EI e seu núcleo de extração é baseado em regras e pode contemplar PLN e aprendizado baseado em técnicas de EI sobre as fontes de texto, tais como: textos Wikipédia, artigos, notícias ou páginas Web. Estas técnicas, em combinação com a diversidade das informações, introduzem um grande risco de degradação na precisão e são computacionalmente muito caros. Entretanto, a EI sobre texto é realizada em duas fases: gathering phase, onde o resultado é interpretado como um conjunto de hipóteses de fatos. A Scrutinizing phase é a fase posterior que avalia as hipóteses e a base de conhecimento existente, filtrando os fatos que mostram a indicação de alta incompatibilidade e os fatos de conhecimento prévio. Por exemplo, considerando que o lugar onde uma pessoa nasce é único, essa fase garante que informações incompatíveis não serão carregadas, ou seja, não permite carregar informações sobre uma dada pessoa que afirmem ou levem a concluir que ela nasceu em um local de nascimento diferente daquele que havia sido informado anteriormente. É importante ressaltar que o YAGO NAGA permite consistência de resultados na EI através de restrições, que verificam a relação entre as classes de uma ontologia (relação transitiva e acíclica). A relação de hierarquia de classe entre as entidades são casos de uso muito importantes, como também o suporte a dependências funcionais, dependências de inclusão e as relações inversas.
+
+
+2.3  TextRunner
+
+	TextRunner, proposto por (Banko, 2009) (Banko e Etzioni, 2008), é um sistema de EI que demonstra um novo tipo extração, chamado Open Information Extraction (OIE), onde é feita uma passagem única, orientada a dados sobre todo o conteúdo Web e extrai-se um grande conjunto de tuplas relacionais, sem necessidade de qualquer intervenção humana. A entrada exclusiva para um sistema OIE é um conteúdo Web e sua saída é um conjunto de relações extraídas. 
+	Anteriormente, a EI era utilizada em pequenos conteúdos homogêneos, tais como notícias, anúncios ou seminário. Como resultado, os tradicionais sistemas de EI são capazes de confiar nas “pesadas” tecnologias linguísticas sintonizadas com o domínio de interesse, tais como analisadores de dependência e identificadores de entidades nomeadas. Estes sistemas não foram projetados para expandir em relação ao tamanho do conteúdo ou o número de relações extraídas como é o caso TextRunner.
+
+
+2.4 DeepPeep
+
+	Com o foco em EI baseada em Web Profunda, DeepPeep (Barbosa et al., 2010) é uma ferramenta de busca de informações especializada em formulários Web. O sistema foi projetado para atender às necessidades dos usuários básicos da Web, em busca de bases de dados online, e para usuários experientes, cujo objetivo é construir aplicativos que acessam informações ocultas na Web e provedores de informação que querem construir coleções de formulários para diferentes domínios. Além disso, a DeepPeep fornece uma interface de busca e uma análise de subsistemas que permitem aos usuários explorar o conteúdo de seu repositório de formulários. Esta abordagem utilizada por DeepPeep faz uso de uma série de rastreadores  e classificadores de forma personalizada para sete diferentes domínios. DeepPeep usa a API Lucene para indexar o conteúdo dos formulários e das páginas onde estão localizados, bem como as etiquetas de formulários. A interface de pesquisa permite aos usuários explorar o repositório de formulário usando o índice produzido pela API Lucene. Ele inclui uma interface simples, baseada em palavras, bem como uma interface de consulta avançada que fornece funcionalidade adicional, incluindo a capacidade de representar simples consultas estruturadas que envolvem comparações de valor do atributo (por exemplo, estado = “RS”), bem como consultas de metadados (por exemplo, recuperar todos os formulários com um rótulo “estado”). Há também a interface para usuários experientes, que oferece suporte a consultas mais complexas sobre o repositório de formulários (por exemplo, mostrar as etiquetas de k-top em um domínio, ou os valores para os atributos k-top) e permite aos usuários interagir com o conteúdo do formulário.
+	Uma característica importante da interface de busca DeepPeep é como classificar os resultados da consulta. A implementação atual combina três características diferentes: o conteúdo do termo, o número de backlinks (links de entrada para uma página web) e o pagerank (indicador de relevância ou importância de uma página). Informações de Pagerank e backlink são obtidas a partir de fontes externas, incluindo Google e Yahoo. Para o conteúdo do termo, a API Lucene fornece um valor que se baseia no cálculo do indicador tf-idf (Term Frequency–Inverse Do-cument Frequency - peso frequentemente utilizado na recuperação de informação e mineração de texto).
+
+
+
+2.5 Comparação entre as ferramentas
+
+	Dentre as ferramentas analisadas o Framework de Extração DBPedia apresentou-se como mais completo, referente às características analisadas. Sua extração é baseada em páginas Web da Wikipédia utilizando as tags dos infoboxes, informações de categorização, entre outros tipos de informações estruturadas. Utiliza templates como modelo para facilitar a aprendizagem, tem licença livre e possui versão em linguagem de programação PHP e Scala. Está disponível no site do projeto a documentação, os links para download do código fonte, os dados já extraídos em formatos RDF, os dumps, pacotes utilitários, entre outros serviços.
+	O YAGO NAGA, como o framework DBPedia, extrai informações baseadas nos artigos Wikipédia utilizando tags. Também utiliza templates como modelo para facilitar o a aprendizagem, tem licença livre e possui versão em linguagem de programação Java. O site do projeto apresenta um demo para avaliação da ferramenta, mas não disponibiliza sua documentação e sim apenas artigos detalhando sua arquitetura e técnicas utilizadas no desenvolvimento. 
+	A extração com o TextRunner é baseada em todo conteúdo de páginas Web. Utiliza técnicas de PLN para extrair dados em diversos domínios, mas o site do projeto e os artigos envolvidos não oferecem muitas informações técnicas para sua utilização, disponibilizam apenas uma versão demo para demonstrar a extração baseada em argumentos e predicados.
+	A DeepPeep é uma ferramenta que permite a extração de campos de formulários da Web Profunda. É baseada em templates de formulários de páginas, mas o site do projeto não fornece muitas informações a respeito da versão para download, licença de utilização e qual é a linguagem desenvolvida. Possui apenas a versão de demonstração online em alguns domínios específicos.
+	A tabela a seguir ilustra um comparativo das características dos trabalhos relacionados.
+
+
+
+DBPedia 
+YAGO 
+TextRunner 
+DeepPeep 
+Tipo de entrada
+Páginas Web Wiki
+Páginas Web Wiki
+Páginas Web
+Formulários Web
+Nível de extração
+Nível de tag 
+Nível de tag 
+Nível de página
+Nível de campo
+Recursos utilizados
+templates
+templates
+PLN
+templates
+Licença
+GNU
+GNU
+-
+-
+Linguagem de programação
+PHP e Scala
+Java
+-
+-
+Utilitários
+Sim
+Sim
+-
+-
+Documentação
+Boa
+Ruim
+Ruim
+Ruim
+Linguagem suportada
+Várias
+-
+-
+-
+Demo
+Versão teste
+Demo online
+Demo online
+Demo online
+	
+		Tabela 2.1: Comparativo das características dos trabalhos relacionados. 		
+
+
+2.6 CONCLUSÕES
+
+	Apesar de todas as ferramentas alcançarem o mesmo objetivo, que é a extração da informação na Web, cada uma tem suas particularidades em relação a implementação técnica. Também podemos observar que há alguns pontos negativos a serem citados. São eles: falta de documentação, dificuldade de encontrar uma versão para download e nenhuma das propostas avaliadas ter apresentado uma solução para a extração de informação em documentos textuais livres escritos em Português Brasileiro.
+	Exceto para o DBPedia, que mostrou ser o mais completo, deveria ser melhorado as questões de suporte para várias linguagens de programação e documentação oficial das ferramentas.
+	Para este projeto nenhuma destas ferramentas será utilizada, visto que o foco é a extração de dados em redes sociais como Google+ e Facebook e sites de currículos, como Lattes e Likedin; e estes já têm suas próprias API's para conexão. O lattes inclusive, já conta com um serviço de exportação de dados, o qual deve ser estudado e analisado com calma como implementar ao sistema de informação que será desenvolvivo.
+	Estuda-se o caso de utilizar API's de desenvolvimento para conexão com os serviços e uma vez conectado, extrair as informações necessárias e relevantes através do sistema e administrá-las. 
+
+
+	
+
+
+
+
+
+
+
+
+
+3. FUNDAMENTAÇÃO TEÓRICA
+	
+	Este capítulo dedica-se a apresentação dos conceitos e técnicas de extração de informações na Web E MOTORES DE BUSCA. 
+// AINDA PRECISO FALAR SOBRE OS MOTORES DE BUSCA NA WEB (WEB CRAWLERS) E SEARCH API'S, QUE NO CASO DO MEU TRABALHO, REFERE-SE AO GOOGLE.
+	Este trabalho foca-se apenas na utilização de técnicas de extração de informações na Web, onde os dados extraídos não serão minerados.
+	
+3.1 EXTRAÇÃO DE INFORMAÇÕES NA WEB
+
+	A Web é uma vasta coleção de documentos heterogêneos e possui uma natureza dinâmica. Ela é a maior fonte de informação digital que dispomos e nesse grande volume de dados há muita informação relevante. Entretanto as páginas Web atualmente contam com diversos recursos de formatação, elevando muito a complexidade da tarefa de extração desses informações relevantes. Portanto, é necessário utilizar técnicas e ou ferramentas para Extração de Informações (EI). Estas são definidas como sistemas capazes de capturar somente os dados relevantes disponíveis em documentos diversos. 
+	Toda informação é um bem dinâmico e possui um valor associado. Nesse sentido, um mecanismo de extração de informação é um elemento de suma importância de qualquer sistema de gestão de conhecimento. Tal mecanismo trabalha em conjunto com ferramentas de organização e recuperação de informações, constituindo assim numa forma de encontrar o artefato desejado.
+	Extração da Informação é uma técnica clássica de mineração de texto, que tem como objetivo encontrar informações de interesse em determinados textos. Geralmente os métodos utilizados são úteis na extração de características de um domínio, tais como: objetos, entidades e relações. A estratégia mais utilizada é a análise de “tags” (marcas) nos textos, podendo indicar a presença de uma informação.
+	“A EI, segundo MOENS (2006), é definida semanticamente a partir de um texto, utilizando um conjunto de regras de extração, adaptadas a um domínio muito específico. Além disso, identifica as informações contidas em textos, ou seja, em uma fonte de informações não estruturada, cujas informações aderem à semântica pré-definida (por exemplo, pessoas, lugares, etc.) ”
+	“Para SARAWAGI (2008), EI refere-se à extração automática de estruturas de informação, tais como: entidades, relacionamentos entre entidades e atributos que descrevem as entidades a partir de fontes não estruturadas. A extração é feita a partir de um documento, cujo destino é um modelo onde ficam armazenados os dados extraídos. Estes, posteriormente, podem ser utilizados, armazenados e/ou manipulados por diversas fontes. ”
+
+		FIGURA PARA MOSTRAR O PROCESSO DE EXTRAÇÃO DA INFORMAÇÃO.
+
+	A Extração de Informação ocorre em documentos, e eles são organizados em três tipos:
+	. Documentos livre ou sem estruturação: Texto livre é basicamente o texto onde não encontramos nenhuma forma de estrutura, e é o tipo mais encontrado. Originalmente o objetivo de Extração de Informação era desenvolver sistemas capazes de extrair informações chaves de textos em linguagem natural. 
+	. Documentos semi-estruturados: Não são textos totalmente livres de estrutura, mas também as estrutura existente não é tão severa, os textos semi- estruturados encontram-se no intermédio. 
+	. Documentos estruturados: Informações textuais contidas em banco de dados ou qualquer outro gênero de documento com uma estruturação rígida, são a base de textos estruturados. Como seguem uma moldura sem grandes diferenças de um documento para outro, sua informação é facilmente extraída. 
+	Há duas abordagens diferentes em relação ao processo de Extração de Informação: Knowledge Engineering e Automatic Training. 
+	Em Knowledge Engineering o sistema é praticamente construído manualmente pelo engenheiro de conhecimento. Sua construção se baseia no conhecimento que o engenheiro ou desenvolvedor possui do cenário e domínio com o qual vai se trabalhar. 
+	A abordagem de automatic training não necessita de um especialista, mas alguém que tenha o conhecimento suficiente do domínio da aplicação. Uma vez que os documentos de corpus foram anotados, um algoritmo de treino é executado, treinando o sistema para novos textos. Utilizam métodos estatísticos, e aprendem regras com a interação com o usuário. 
+	Nenhuma das duas abordagens é superior a outra, pois a extração depende de muitas variáveis, e muitas vezes, variáveis externas, logo, não podemos apontar nenhuma abordagem como completa. Ambas utilizadas em conjunto caminha para um sistema ideal. 
+	A maior concentração de informações disponíveis na Web encontra-se em páginas HTML. Estas páginas são constituídas de dois tipos de informações: as de formatação e as de conteúdo. As informações de formatação servem para apresentar e definir a localização dos elementos na página. Já as informações de conteúdo, são utilizadas para se identificarem ou qualificarem objetos. As informações que os usuários e desenvolvedores desejam em um processo de extração são de conteúdo, e, para que seja possível manipulá-las, é necessário extraí-las. Porém, é importante ressaltar que a extração da informação de documentos não estruturados pode tornar-se um grande desafio, visto que requer mecanismos para acessar o conhecimento, gerir e manipular um grande volume de dados, além de outras funcionalidades.
+	Muitas vezes a Extração da Informação é confundida com Recuperação da Informação – RI e é preciso esclarecer que estas técnicas são diferentes, onde a Recuperação da Informação é o processo de seleção de documentos a partir de um acervo, baseado no que o usuário deseja. Consiste em identificar quais documentos atendem as necessidades do usuário. O objetivo do usuário na RI é a recuperação da informação de um determinado assunto e não a recuperação de dados que satisfaçam a uma expressão de busca (GAIZAUSKAS e WILKS, 1998). 
+	A Extração da Informação, por sua vez, gera dados estruturados, ou seja, registros em tabelas de banco de dados, onde uma vez armazenado estão prontos para serem utilizados em aplicações de mineração de dados, tendo como resultado uma mineração na Web.
+
+	FIGURA PARA MOSTRAR AS DIFERENÇAS ENTRE RECUPERAÇÃO DA INFORMAÇÃO X EXTRAÇÃO DA INFORMAÇÃO
+
+
+	Existem três técnicas que são aplicadas para a Extração da Informação. Os wrappers, as baseadas em PLN e as baseadas na Web profunda – WP. Os wrappers têm como objetivo extrair informaçoes em textos estruturados ou semiestruturados, onde a técnica de PLN é difícil de ser realizada, como por exemplo, uma tabela HTML. Baseiam-se em informações relativas à formatação, delimitadores, tipografia e frequência das palavras, como por exemplo, os sistemas YAGO NAGA (KASNECI et al., 2008) e Framework de Extração de Informação DBpedia (BIZER et al., 2009) . Os sistemas baseados em PLN foram criados para tratar textos livres (textos jornalísticos, por exemplo) e realizam a extração baseadas em um pré- processamento da linguagem (SILVA, 2004), tal como TextRunner (BANKO, 2009; BANKO e ETZIONI, 2008). Por último, as técnicas baseadas na Web Profunda tem como objetivo encontrar informações utilizando técnicas aplicadas para a descoberta do conhecimento a partir de formulários, onde os dados não são visíveis aos sistemas de busca atuais, como por exemplo, o DeepPeep (BARBOSA et al., 2010) . Estes sistemas recuperam e integram dados da WP, cuja informação está escondida por trás de interfaces de consulta (geralmente formulários HTML). Assim, a cada consulta formulada pelo usuário, páginas são geradas dinamicamente, apresentando o conteúdo correspondente às informações contidas nesses formulários (KHARE et al., 2010). 
+	A tabela 3.1 apresenta os tipos de sistemas de Extração de Informações e suas características 
+	
+
+Wrappers
+Ferramentas de EI baseadas em PLN
+Ferramentas de EI baseadas na Web Profunda
+Objetivo
+Extrair informações de diversas fontes da Web.
+Extrair informações de textos em linguagem natural.
+Recuperam e intragem dados da Web Profunda.
+Tipo de texto
+Geralmente estruturados e semi-estruturados, sendo em alguns casos textos livres.
+Texto livre.
+Estruturado.
+Características usadas para extração
+Informações de formatação de texto, marcadores, frequencia das palavras, PLN em alguns casos.
+Padrões de linguagens baseados em PLN.
+Informações de formulários HTML ou de banco de dados.
+
+	É importante ressaltar que a Extração da Informação pode ser aplicada para diferentes fins. A seguir é mostrada uma lista que apresenta estes conjuntos categorizados (SARAWAGI, 2008): 
+
+	. Aplicações Empresariais:
+		. Notícias: criação automática de notícia multimídia de integram vídeos, fotos de entidades e eventos, hiperlinks de artigos de notícias para informações básicas sobre pessoas, locais e companhias;
+		. Atendimento ao cliente: a EI é realizada a partir de textos de respostas no atendimento ao cliente. Informações postadas pelo cliente têm grande valor para a empresa; 
+		. Limpeza de dados: a EI é empregada para tratar o problema de endereços duplicados, quando muitas vezes existe a ocorrência de vários registros de endereços armazenados em bases de dados diferentes para a mesma pessoa; 
+		. Classificados: a técnica de EI é de grande utilidade para recuperar anúncios 
+classificados e outras listas como listas de restaurantes. Esse domínio apresenta uma 
+estrutura implícita que, quando exposta, pode ser de difícil consulta; 
+		. Gerenciamento de Informações Pessoais: sistemas que buscam organizar dados pessoais, como documentos, e-mails, projetos e pessoas de forma estruturada e inter- relacionadas; 
+		. Aplicações Científicas: o recente aumento de estudos na área de bioinformática trouxe a necessidade de extrações de entidades nomeadas para objetos biológicos, tais como proteínas e genes. 
+
+	. Aplicações Orientadas a Web: 
+		. Banco de Dados de Citações: muitos bancos de dados de citações na Web têm sido criados através de estruturas elaboradas com base na extração de fontes, que vão desde sites de conferência na Web até homepages individuais, como por exemplo, Citeseer, o Google Scholar e DBLP; 
+		. Banco de Dados de Opinião: existem vários sites de armazenamento sem moderação de opiniões sobre uma variedade de itens, incluindo produtos, livros, filmes, pessoas e música. Muitas das opiniões são, em forma de texto livre, escondidas atrás de blogs, posts de notícias, sites de opinião, etc; 
+		. Sites Web de Comunidades: outro exemplo da criação de bancos de dados 
+estruturados de documentos Web são os sites de comunidades como DBLife e Rexa 
+que rastreiam informações sobre pesquisadores, conferências, palestras, projetos e 
+eventos relevantes para uma comunidade específica. A criação de tais bancos de dados 
+estruturados exige a extração em muitas etapas: a localização das páginas de anúncios, 
+extração de nomes dos palestrantes e os títulos, registros sobre um site de conferência e 
+entre outros; 
+		. Comparação de Sites de Compras: atualmente existe um forte interesse na 
+comparação entre sites de compras, que rastreiam automaticamente sites comerciais da 
+Web, para encontrar produtos e respectivos preços. Como as tecnologias Web 
+evoluíram, os maiores sites começaram a ficar escondidos atrás de formas e linguagens 
+de script. Como consequência, o foco mudou então para o rastreamento e extração de 
+informações de sites baseados em formulários; 
+		. Posicionamento de Anúncio: anúncios de um produto com um texto expressando uma opinião positiva sobre o mesmo. Tanto o anúncio de produtos como o parecer emitido sobre o mesmo são exemplos de tarefas de EI. Estes anúncios Web facilitam cada vez mais a vida do usuário, que muito se beneficia com a crescente evolução deste setor; 
+		. Pesquisas Estruturadas na Web: grande desafio para obter extração de informações é permitir a busca estruturada envolvendo entidades e suas relações na Web Wide World - WWW. 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+//ESTE CAPÍTULO NÃO VALE, POIS AQUI EU ESCREVI MESMO SOBRE ETL E NÃO É ISSO.
+
+
+
+
+2. TRABALHOS RELACIONADOS
+
+	Atualmente existem diversas ferramentas disponíveis no mercado, e todas atendem de forma satisfatória vários tipos de transformações que o processo de ETL necessita. As ferramentas mais conceituadas são de empresas consideras gigantes no mercado de Tecnologia da Informação, como a IBM e a Oracle, por  exemplo, mas devido ao alto custo dessas ferramentas, várias empresas acabam  optando por soluções open source. 
+	Neste capítlo serão apresentados algumas ferramentas de extração de informação na web.
+
+2.1 WEB CONTENT EXTRACTOR
+
+	Web Content Extractor  é um software de extração de dados a partir de sites da web desenvolvido e mantido pela empresa Newprosoft. Ele oferece uma interface amigável, orientada pelo assistente que o guiará através do processo de construção de um padrão de extração de dados e criação de regras de rastreamento de um modo simples e intuitivo. Nem uma única sequencia de código é necessária. A extração de dados da Web é realizada de modo completamente automático.
+	Sua principal característica é permitir aos usuários extrair dados de um determinado site com páginas com estrutura similar (como lojas online, sites de compras, sites de comércio eletrônico, sites financeiros, diretórios de negócios, catálogos de produtos, resultados de pesquisas, e etc). Os dados extraídos podem ser exportados para uma variedade de formatos, incluindo Microsoft Excel (CSV), Access, TXT, HTML, XML, script SQL, MySQL script e qualquer fonte de dados ODBC, além de utilizar tecnologia de rastreamento multithreaded (multi-tarefas), que baixa até 20 atributos simultaneamente, ou seja, é possível extrair dados de várias páginas através de um escalonador de processos que o próprio software já implementa.
+fonte: http://www.software.com.br/web-content-extractor.html
+
+
+2.2 KETTLE (PENTAHO DATA INTEGRATION - PDI)
+
+	Pentaho Data Integration é uma plataforma de código-fonte aberto, escrita em Java, para criação de soluções de Inteligência de Negócios (Business Intelligence-BI). Ela possui uma suíte completa de BI, apresentando grande flexibilidade e independência entre diversas plataformas além de alta confiabilidade e segurança. Seus propósitos básicos são a geração de relatórios empresariais, processos de ETL (Extração, Transformação e Carga), Análise de informações (OLAP), painéis para controle gerencial, mineração de dados e fluxo de trabalho (workflow). Esta ferramenta proporciona uma poderosa extração, transformação e carregamento (ETL) usando uma inovadora abordagem orientada a metadados.
+	O Kettle é uma das ferramentas da PDI e esta sendo cada vez mais a escolha para as organizações mais tradicionais, que buscam uma ferramenta específica de ETL ou ferramentas para integração de dados. Possui uma interface gráfica intuitiva, num ambiente que usa drag and drop (arrastar e soltar) dos componentes, e uma comprovada arquitetura baseada em padrões escalável. 
+
+            2.2.1 O FACEBOOK GRAPH API
+	A API (Application Programming Interface) gráfica do Facebook é um serviço do tipo RESTful, ou seja, que retorna arquivos do tipo JSON. O processo é feito através do envio de uma solicitação HTTP para iniciar conexão com o Facebook e isto permite executar métodos GET para retornar dados a serem analisados via linguagem de programação (Java, Python, PHP, entre outras.), ou sem programação, usando PDI.
+	Para a extração dos dados desejados, é necessário criar um aplicativo dentro do Facebook. Isto permite que obtenhamos um número ID e uma chave secreta para autorização da rede social. Uma vez que se tem criado o aplicativo, pode-se usar o PDI e o método HTTP GET para buscar dados de determinados usuários no Facebook.
+
+2.3 TALEND OPEN STUDIO
+	
+	Ferramenta de código-fonte livre escrita em Java, desenvolvido pela Talend, que proporciona uma integração poderosa e flexível, de modo que as empresas não precisam mais se preocupar em saber como as bases de dados e as aplicações estão conversando entre si, e sim se preocupar em maximizar o valor do uso de dados.
+	Trata-se de uma ferramenta extensível, escalável e com um conjunto de ferramentas para acessar, transformar e integrar dados de qualquer sistema de negócios em tempo real ou em lote para atender tanto as necessidades de operação como as analíticas de integração de dados. Possui mais de 450 componentes de conexão. Utiliza ETL para Business Intelligence (BI), Master Data Management (MDM) e Data Warehouse (DW), sincronização de dados, migração de dados e consolidação; compartilhamento de arquivos e serviços de dados.
+
+	
+
+2.4 IBM InfoSphere DataStage
+
+	O IBM InfoSphere DataStage é um módulo de produto principal da plataforma de integração de informações do InfoSphere Information Server. Ele permite coletar, integrar e transformar dados de uma ampla variedade de origens nos data warehouses e em outros aplicativos para informações confiáveis e na hora certa. Processa volumes de dados massivos em lotes ou em tempo real, conectando-se com um número ilimitado virtualmente de origens de dados heterogêneos em uma única tarefa. Entre os pontos fortes estão a plataforma escalável, que permite gerenciar volumes de dados com recursos de processamento paralelo de plataformas de hardware do multiprocessador; suporte abrangente à origem e ao desafio, sendo possível integrar um número ilimitado virtualmente de origens e destinos de dados heterogêneos em uma única tarefa; suporte à integração de dados em tempo real, onde pode-se capturar mensagens ou extrair dados em tempo real na mesma plataforma que integra dados em massa, usando as mesmas regras de transformação e facilidade de uso, este último visando maximar velocidade, flexibilidade e a efetividade para construir, implementar, atualizar e gerenciar a infraestrutura de integração dos dados.
+	O InfoSphere DataStage entrega retornos de dados em tempo real para otimizar a extração, transformar, carregar processos (ETL) e também fornece uma arquitetura orientada a serviços (SOA) para a lógica de integração de dados de publicação como serviços compartilhados que podem ser reutilizados na empresa. 
+	A integração de dados é oferecida para estruturas de dados complexas em XML; sistemas ERP (SAP, Oracle, PeopleSoft); quase todos os bancos de dados (incluindo bancos de dados particionados); serviços da web e ferramentas de inteligência de negócios (IBM Cognos, SAS).
+	As tarefas de integração de dados podem ser implementadas com os Serviços de Mensagens Java, serviços da web e outros métodos. Este SOA permite que numerosos desenvolvedores compartilhem processos de integração de dados complexos sem exigir que eles entendam às etapas contidas nos serviços.
+
+
+
+
+
+
+
+
+2.5 TABELA COMPARATIVA ENTRE AS FERRAMENTAS
+
+FERRAMENTA
+Plataforma
+
+
+
+
+
+
+
+
+WEB CONTENT EXTRACTOR
+
+
+
+
+
+
+
+
+
+KETTLE
+
+
+
+
+
+
+
+
+
+TALEND OPEN STUDIO
+
+
+
+
+
+
+
+
+
+IBM InfoSphere DataStage
+
+
+
+
+
+
+
+
+

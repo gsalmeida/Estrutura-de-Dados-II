@@ -1,0 +1,5 @@
+ > - execute um "reverse delete", ou seja, remova as
+ >   arestas de trás para frente (as mais custosas
+ >   primeiro) desde que a sua remoção mantenha ainda
+ >   um componente com tamanho pelo menos. 
+
